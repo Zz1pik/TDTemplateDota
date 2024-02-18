@@ -1,8 +1,8 @@
 "AddonInfo"
 {
-    maps "dotd_4"
+    maps "td_template_dota"
     "IsPlayable" "1"
-    "dotd_4"
+    "td_template_dota"
     {
         "MaxPlayers" "1"
     }
