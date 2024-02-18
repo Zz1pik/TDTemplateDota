@@ -1,0 +1,127 @@
+"DOTAUnits"
+{
+	"npc_dota_base_tower"
+	{
+        "BaseClass"		            "npc_dota_creature"
+        "Model"                     "models/creeps/neutral_creeps/n_creep_gnoll/n_creep_gnoll_frost.vmdl"
+        "ModelScale" 				"1"
+        "SoundSet"                  "n_creep_Ranged"
+        "SelectOnSpawn"				"0"
+        "AutoAttacksByDefault"		"1"
+        "Level"                     "1"
+        "Sell"                      "5"     //Цена продажи
+        "BuildTime"                 "3"     //Время строительства
+
+        "Ability1"					""		
+		"Ability2"					""			
+		"Ability3"					""
+        "Ability4"					"upgrade"	
+        "Ability5"					"destroyer"		
+    
+        "ArmorPhysical"             "0"
+        "MagicalResistance"         "0"
+
+        "StatusHealth"              "10"    //Минимум 10 здоровья
+        "StatusHealthRegen"         "0"
+        "StatusMana"                "100"
+        "StatusManaRegen"           "0"
+
+        "AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"BaseAttackSpeed"		    "100"
+		"AttackDamageMin"			"1"		
+		"AttackDamageMax"			"1"			
+		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
+		"AttackRate"				"1.5"	
+		"AttackAnimationPoint"		"0.4"			
+		"ProjectileModel"			"particles/neutral_fx/gnoll_base_attack.vpcf" 
+		"ProjectileSpeed"			"900"
+
+        // "AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		// "AttributeBaseStrength"		"0"			
+		// "AttributeStrengthGain"		"0"			
+		// "AttributeBaseIntelligence"	"0"			
+		// "AttributeIntelligenceGain"	"0"		
+		// "AttributeBaseAgility"		"0"			
+		// "AttributeAgilityGain"		"0"		
+
+        "VisionDaytimeRange"		"500"		
+		"VisionNighttimeRange"		"500"		
+
+        "BoundsHullName"			"DOTA_HULL_SIZE_HERO"   
+		"RingRadius"				"24"       
+		"HealthBarOffset"			"170"
+
+        "MovementTurnRate"          "1.0"
+
+        "UseNeutralCreepBehavior"   "0"     //Должно быть 0
+        "HasInventory"              "0"
+
+        "ConstructionSize"          "2"      //Блокирует строительство других зданий в этой области. Требуется действительный квадрат того же размера. Принимает число.
+        "BlockPathingSize"          "0"      //Блокирует путь с объектами-препятствиями для лабиринта. Это может быть 0
+
+        "UpgradeCost"               "20"                         //Стоимость улучшения
+        "Upgrade"                   "npc_dota_base_tower_up"     //Здание в которое улучшается этот тавер
+    }
+
+    "npc_dota_base_tower_up"
+	{
+        "BaseClass"		            "npc_dota_creature"
+        "Model"                     "models/creeps/neutral_creeps/n_creep_gnoll/n_creep_gnoll_frost.vmdl"
+        "ModelScale" 				"3"
+        "SoundSet"                  "n_creep_Ranged"
+        "SelectOnSpawn"				"0"
+        "AutoAttacksByDefault"		"1"
+        "Level"                     "2"
+        "Sell"                      "10"     //Цена продажи
+        "BuildTime"                 "5"      //Время строительства
+
+        "Ability1"					""		
+		"Ability2"					""			
+		"Ability3"					""
+        "Ability4"					""	
+        "Ability5"					"destroyer"		
+    
+        "ArmorPhysical"             "0"
+        "MagicalResistance"         "0"
+
+        "StatusHealth"              "100"    //Минимум 10 здоровья
+        "StatusHealthRegen"         "0"
+        "StatusMana"                "100"
+        "StatusManaRegen"           "0"
+
+        "AttackDamageMin"			"5"		
+		"AttackDamageMax"			"5"		
+
+        "AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"BaseAttackSpeed"		    "100"	
+		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
+		"AttackRate"				"1.5"	
+		"AttackAnimationPoint"		"0.4"			
+		"ProjectileModel"			"particles/neutral_fx/gnoll_base_attack.vpcf" 
+		"ProjectileSpeed"			"900"
+
+        // "AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		// "AttributeBaseStrength"		"0"			
+		// "AttributeStrengthGain"		"0"			
+		// "AttributeBaseIntelligence"	"0"			
+		// "AttributeIntelligenceGain"	"0"		
+		// "AttributeBaseAgility"		"0"			
+		// "AttributeAgilityGain"		"0"		
+
+        "VisionDaytimeRange"		"500"		
+		"VisionNighttimeRange"		"500"		
+
+        "BoundsHullName"			"DOTA_HULL_SIZE_HERO"   
+		"RingRadius"				"24"       
+		"HealthBarOffset"			"170"
+
+        "MovementTurnRate"          "1.0"
+
+        "UseNeutralCreepBehavior"   "0"     //Должно быть 0
+        "HasInventory"              "0"
+
+        "ConstructionSize"          "2"      //Блокирует строительство других зданий в этой области. Требуется действительный квадрат того же размера. Принимает число.
+        "BlockPathingSize"          "0"      //Блокирует путь с объектами-препятствиями для лабиринта. Это может быть 0
+    }
+}
+

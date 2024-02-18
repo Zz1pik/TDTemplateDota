@@ -1,0 +1,51 @@
+"DOTAAbilities"
+{
+	"destroyer"
+    {
+        "BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityCooldown"        		"1"
+        
+        "OnSpellStart"
+        {
+            "RunScript"
+            {
+                "ScriptFile"    "builder.lua"
+                "Function"      "CancelBuilding"
+            }
+        }
+    }
+
+	"upgrade"
+    {
+        "BaseClass"           			"ability_lua"
+    	"ScriptFile"		  	 		"upgrade.lua"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+    }
+
+	"spawn_base_tower"
+	{
+		"UnitName"						"npc_dota_base_tower"	//Юнит которого создаёт способность
+		"BaseClass"             		"ability_datadriven"
+		"MaxLevel" 						"1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityCastPoint"				"0"
+		"Building"						"1" 	//Нужно ставить, если это абилка на строительство
+		"PlayerCanControl"				"1"		//Позваляет управлять зданием
+		"Scale"							"1" 	//Если 1 то размер постепенно увеличивается 
+
+		"AbilityCastRange"				"200"
+		"AbilityGoldCost"				"10"	
+		"AbilityCooldown"				"0"
+
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"builder.lua"
+				"Function"		"Build"
+			}
+		}
+	}
+
+}
