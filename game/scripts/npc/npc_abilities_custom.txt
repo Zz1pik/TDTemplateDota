@@ -31,7 +31,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
 		"AbilityCastPoint"				"0"
 		"Building"						"1" 	//Нужно ставить, если это абилка на строительство
-		"PlayerCanControl"				"1"		//Позваляет управлять зданием
+		"PlayerCanControl"				"1"		//Позволяет управлять зданием
 		"Scale"							"1" 	//Если 1 то размер постепенно увеличивается 
 
 		"AbilityCastRange"				"200"
