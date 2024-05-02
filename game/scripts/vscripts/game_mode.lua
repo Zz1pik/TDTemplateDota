@@ -23,5 +23,5 @@ function game_mode:GameStateChange(data)
 end
 
 function game_mode:StartGame()
-	--Срабатывает в 00:00
+	
 end

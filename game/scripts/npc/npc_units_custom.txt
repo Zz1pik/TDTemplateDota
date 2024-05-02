@@ -9,8 +9,8 @@
         "SelectOnSpawn"				"0"
         "AutoAttacksByDefault"		"1"
         "Level"                     "1"
-        "Sell"                      "5"     //Цена продажи
-        "BuildTime"                 "3"     //Время строительства
+        "Sell"                      "5"     //Selling price
+        "BuildTime"                 "3"     //Construction time
 
         "Ability1"					""		
 		"Ability2"					""			
@@ -21,7 +21,7 @@
         "ArmorPhysical"             "0"
         "MagicalResistance"         "0"
 
-        "StatusHealth"              "10"    //Минимум 10 здоровья
+        "StatusHealth"              "10"    //Minimum 10 health
         "StatusHealthRegen"         "0"
         "StatusMana"                "100"
         "StatusManaRegen"           "0"
@@ -34,15 +34,7 @@
 		"AttackRate"				"1.5"	
 		"AttackAnimationPoint"		"0.4"			
 		"ProjectileModel"			"particles/neutral_fx/gnoll_base_attack.vpcf" 
-		"ProjectileSpeed"			"900"
-
-        // "AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
-		// "AttributeBaseStrength"		"0"			
-		// "AttributeStrengthGain"		"0"			
-		// "AttributeBaseIntelligence"	"0"			
-		// "AttributeIntelligenceGain"	"0"		
-		// "AttributeBaseAgility"		"0"			
-		// "AttributeAgilityGain"		"0"		
+		"ProjectileSpeed"			"900"	
 
         "VisionDaytimeRange"		"500"		
 		"VisionNighttimeRange"		"500"		
@@ -53,14 +45,14 @@
 
         "MovementTurnRate"          "1.0"
 
-        "UseNeutralCreepBehavior"   "0"     //Должно быть 0
+        "UseNeutralCreepBehavior"   "0"     //Should be 0
         "HasInventory"              "0"
 
-        "ConstructionSize"          "2"      //Блокирует строительство других зданий в этой области. Требуется действительный квадрат того же размера. Принимает число.
-        "BlockPathingSize"          "0"      //Блокирует путь с объектами-препятствиями для лабиринта. Это может быть 0
+        "ConstructionSize"          "2"      //Blocks the construction of other buildings in this area. A valid square of the same size is required. Accepts a number.
+        "BlockPathingSize"          "0"      //Blocks the path with obstacle objects for the maze. It could be 0
 
-        "UpgradeCost"               "20"                         //Стоимость улучшения
-        "Upgrade"                   "npc_dota_base_tower_up"     //Здание в которое улучшается этот тавер
+        "UpgradeCost"               "20"                         //Upgrade cost
+        "Upgrade"                   "npc_dota_base_tower_up"     //The building into which this tavern is upgraded
     }
 
     "npc_dota_base_tower_up"
@@ -72,8 +64,8 @@
         "SelectOnSpawn"				"0"
         "AutoAttacksByDefault"		"1"
         "Level"                     "2"
-        "Sell"                      "10"     //Цена продажи
-        "BuildTime"                 "5"      //Время строительства
+        "Sell"                      "10"     //Selling price
+        "BuildTime"                 "5"      //Construction time
 
         "Ability1"					""		
 		"Ability2"					""			
@@ -84,7 +76,7 @@
         "ArmorPhysical"             "0"
         "MagicalResistance"         "0"
 
-        "StatusHealth"              "100"    //Минимум 10 здоровья
+        "StatusHealth"              "100"    //Minimum 10 health
         "StatusHealthRegen"         "0"
         "StatusMana"                "100"
         "StatusManaRegen"           "0"
@@ -100,14 +92,6 @@
 		"ProjectileModel"			"particles/neutral_fx/gnoll_base_attack.vpcf" 
 		"ProjectileSpeed"			"900"
 
-        // "AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
-		// "AttributeBaseStrength"		"0"			
-		// "AttributeStrengthGain"		"0"			
-		// "AttributeBaseIntelligence"	"0"			
-		// "AttributeIntelligenceGain"	"0"		
-		// "AttributeBaseAgility"		"0"			
-		// "AttributeAgilityGain"		"0"		
-
         "VisionDaytimeRange"		"500"		
 		"VisionNighttimeRange"		"500"		
 
@@ -117,11 +101,11 @@
 
         "MovementTurnRate"          "1.0"
 
-        "UseNeutralCreepBehavior"   "0"     //Должно быть 0
+        "UseNeutralCreepBehavior"   "0"     //Should be 0
         "HasInventory"              "0"
 
-        "ConstructionSize"          "2"      //Блокирует строительство других зданий в этой области. Требуется действительный квадрат того же размера. Принимает число.
-        "BlockPathingSize"          "0"      //Блокирует путь с объектами-препятствиями для лабиринта. Это может быть 0
+        "ConstructionSize"          "2"      //Blocks the construction of other buildings in this area. A valid square of the same size is required. Accepts a number.
+        "BlockPathingSize"          "0"      //Blocks the path with obstacle objects for the maze. It could be 0
     }
 }
 

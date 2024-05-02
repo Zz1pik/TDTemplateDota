@@ -25,14 +25,14 @@
 
 	"spawn_base_tower"
 	{
-		"UnitName"						"npc_dota_base_tower"	//Юнит которого создаёт способность
+		"UnitName"						"npc_dota_base_tower"	//The unit that creates the ability
 		"BaseClass"             		"ability_datadriven"
 		"MaxLevel" 						"1"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
 		"AbilityCastPoint"				"0"
-		"Building"						"1" 	//Нужно ставить, если это абилка на строительство
-		"PlayerCanControl"				"1"		//Позваляет управлять зданием
-		"Scale"							"1" 	//Если 1 то размер постепенно увеличивается 
+		"Building"						"1" 	//Must be installed if this is a construction ability
+		"PlayerCanControl"				"1"		//Allows you to manage a building
+		"Scale"							"1" 	//If 1 then the size gradually increases
 
 		"AbilityCastRange"				"200"
 		"AbilityGoldCost"				"10"	
